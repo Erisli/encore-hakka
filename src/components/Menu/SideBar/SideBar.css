@@ -1,0 +1,15 @@
+
+#collasible-nav-dropdown {
+    color: #f0f8ff;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand>img {
+    width: 120px;
+    height: 100px;
+    padding: 7px 14px;
+}
