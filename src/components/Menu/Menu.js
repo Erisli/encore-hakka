@@ -12,7 +12,6 @@ import Veg from './Vegetarian/Vegetarian';
 
 import SideBar from './SideBar/SideBar';
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Menu() {
 
