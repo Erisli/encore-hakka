@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/encore-hakka/static/css/main.cd9ff5dc.css",
-    "main.js": "/encore-hakka/static/js/main.e6036dc9.js",
+    "main.js": "/encore-hakka/static/js/main.c6c1bc8f.js",
     "static/media/mainImage.jpg": "/encore-hakka/static/media/mainImage.2ffedabf23a1f2e0d6e0.jpg",
     "static/media/InsLogo.png": "/encore-hakka/static/media/InsLogo.a1950cc4577ce1f1514a.png",
     "static/media/GChk.jpg": "/encore-hakka/static/media/GChk.e5cc6002307decb2cf30.jpg",
@@ -15,10 +15,10 @@
     "static/media/ls.PNG": "/encore-hakka/static/media/ls.c773094b4dfd483cf889.PNG",
     "index.html": "/encore-hakka/index.html",
     "main.cd9ff5dc.css.map": "/encore-hakka/static/css/main.cd9ff5dc.css.map",
-    "main.e6036dc9.js.map": "/encore-hakka/static/js/main.e6036dc9.js.map"
+    "main.c6c1bc8f.js.map": "/encore-hakka/static/js/main.c6c1bc8f.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9ff5dc.css",
-    "static/js/main.e6036dc9.js"
+    "static/js/main.c6c1bc8f.js"
   ]
 }
