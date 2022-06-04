@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Encore-Hakka/static/css/main.dc04713c.css",
-    "main.js": "/Encore-Hakka/static/js/main.db84e016.js",
+    "main.css": "/Encore-Hakka/static/css/main.184eb07c.css",
+    "main.js": "/Encore-Hakka/static/js/main.f229f440.js",
     "static/media/mainImage.jpg": "/Encore-Hakka/static/media/mainImage.2ffedabf23a1f2e0d6e0.jpg",
     "static/media/GChk.jpg": "/Encore-Hakka/static/media/GChk.e5cc6002307decb2cf30.jpg",
     "static/media/CChk.jpg": "/Encore-Hakka/static/media/CChk.37841ae99ec372b63ccf.jpg",
@@ -13,11 +13,11 @@
     "static/media/pt.PNG": "/Encore-Hakka/static/media/pt.bf010edc0202fe62cc32.PNG",
     "static/media/ls.PNG": "/Encore-Hakka/static/media/ls.c773094b4dfd483cf889.PNG",
     "index.html": "/Encore-Hakka/index.html",
-    "main.dc04713c.css.map": "/Encore-Hakka/static/css/main.dc04713c.css.map",
-    "main.db84e016.js.map": "/Encore-Hakka/static/js/main.db84e016.js.map"
+    "main.184eb07c.css.map": "/Encore-Hakka/static/css/main.184eb07c.css.map",
+    "main.f229f440.js.map": "/Encore-Hakka/static/js/main.f229f440.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc04713c.css",
-    "static/js/main.db84e016.js"
+    "static/css/main.184eb07c.css",
+    "static/js/main.f229f440.js"
   ]
 }
