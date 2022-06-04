@@ -1,6 +1,7 @@
 {
   "name": "encore-hakka",
   "version": "0.1.0",
+  "homepage": "https://ErisLi.github.io/Encore-Hakka",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -9,6 +10,7 @@
     "antd": "^4.20.7",
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-device-detect": "^2.2.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
