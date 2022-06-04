@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/encore-hakka/static/css/main.cd9ff5dc.css",
-    "main.js": "/encore-hakka/static/js/main.6ac5caff.js",
-    "static/media/mainImage.jpg": "/encore-hakka/static/media/mainImage.2ffedabf23a1f2e0d6e0.jpg",
-    "static/media/GChk.jpg": "/encore-hakka/static/media/GChk.e5cc6002307decb2cf30.jpg",
-    "static/media/CChk.jpg": "/encore-hakka/static/media/CChk.37841ae99ec372b63ccf.jpg",
-    "static/media/SChk.jpg": "/encore-hakka/static/media/SChk.bd663eafbf435034b571.jpg",
-    "static/media/ddLogo.jpg": "/encore-hakka/static/media/ddLogo.a3233de7cb3a8901cdcd.jpg",
-    "static/media/logo.png": "/encore-hakka/static/media/logo.610aa290c9605835f933.png",
-    "static/media/pt2.PNG": "/encore-hakka/static/media/pt2.45f4b18818b9cabfefa8.PNG",
-    "static/media/pt3.PNG": "/encore-hakka/static/media/pt3.269cb75c7dbcf57e8542.PNG",
-    "static/media/pt.PNG": "/encore-hakka/static/media/pt.bf010edc0202fe62cc32.PNG",
-    "static/media/ls.PNG": "/encore-hakka/static/media/ls.c773094b4dfd483cf889.PNG",
-    "index.html": "/encore-hakka/index.html",
-    "main.cd9ff5dc.css.map": "/encore-hakka/static/css/main.cd9ff5dc.css.map",
-    "main.6ac5caff.js.map": "/encore-hakka/static/js/main.6ac5caff.js.map"
+    "main.css": "/Encore-Hakka/static/css/main.cd9ff5dc.css",
+    "main.js": "/Encore-Hakka/static/js/main.5a9dc980.js",
+    "static/media/mainImage.jpg": "/Encore-Hakka/static/media/mainImage.2ffedabf23a1f2e0d6e0.jpg",
+    "static/media/GChk.jpg": "/Encore-Hakka/static/media/GChk.e5cc6002307decb2cf30.jpg",
+    "static/media/CChk.jpg": "/Encore-Hakka/static/media/CChk.37841ae99ec372b63ccf.jpg",
+    "static/media/SChk.jpg": "/Encore-Hakka/static/media/SChk.bd663eafbf435034b571.jpg",
+    "static/media/ddLogo.jpg": "/Encore-Hakka/static/media/ddLogo.a3233de7cb3a8901cdcd.jpg",
+    "static/media/logo.png": "/Encore-Hakka/static/media/logo.610aa290c9605835f933.png",
+    "static/media/pt2.PNG": "/Encore-Hakka/static/media/pt2.45f4b18818b9cabfefa8.PNG",
+    "static/media/pt3.PNG": "/Encore-Hakka/static/media/pt3.269cb75c7dbcf57e8542.PNG",
+    "static/media/pt.PNG": "/Encore-Hakka/static/media/pt.bf010edc0202fe62cc32.PNG",
+    "static/media/ls.PNG": "/Encore-Hakka/static/media/ls.c773094b4dfd483cf889.PNG",
+    "index.html": "/Encore-Hakka/index.html",
+    "main.cd9ff5dc.css.map": "/Encore-Hakka/static/css/main.cd9ff5dc.css.map",
+    "main.5a9dc980.js.map": "/Encore-Hakka/static/js/main.5a9dc980.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9ff5dc.css",
-    "static/js/main.6ac5caff.js"
+    "static/js/main.5a9dc980.js"
   ]
 }
