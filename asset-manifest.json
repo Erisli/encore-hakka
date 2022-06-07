@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/encore-hakka/static/css/main.2785ea97.css",
-    "main.js": "/encore-hakka/static/js/main.6b3913b7.js",
+    "main.js": "/encore-hakka/static/js/main.818047b1.js",
     "static/media/28.jpg": "/encore-hakka/static/media/28.afb3e48de84fa23c31f5.jpg",
     "static/media/26.jpg": "/encore-hakka/static/media/26.e517ccad4377b0f4a035.jpg",
     "static/media/20.jpg": "/encore-hakka/static/media/20.35ddd151d2b7a6e08784.jpg",
@@ -49,10 +49,10 @@
     "static/media/ls.PNG": "/encore-hakka/static/media/ls.6edacdc630b66fa4347d.PNG",
     "index.html": "/encore-hakka/index.html",
     "main.2785ea97.css.map": "/encore-hakka/static/css/main.2785ea97.css.map",
-    "main.6b3913b7.js.map": "/encore-hakka/static/js/main.6b3913b7.js.map"
+    "main.818047b1.js.map": "/encore-hakka/static/js/main.818047b1.js.map"
   },
   "entrypoints": [
     "static/css/main.2785ea97.css",
-    "static/js/main.6b3913b7.js"
+    "static/js/main.818047b1.js"
   ]
 }
