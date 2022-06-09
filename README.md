@@ -39,11 +39,11 @@
     <a href="https://github.com/Erisli/encore-hakka"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="[https://github.com/github_username/repo_name](https://github.com/Erisli/encore-hakka)">View Demo</a>
+    <a href="https://github.com/Erisli/encore-hakka">View Demo</a>
     ·
-    <a href="[https://github.com/github_username/repo_name/issues](https://github.com/Erisli/encore-hakka/issues)">Report Bug</a>
+    <a href="https://github.com/Erisli/encore-hakka/issues">Report Bug</a>
     ·
-    <a href="[https://github.com/github_username/repo_name/issues](https://github.com/Erisli/encore-hakka/issues)">Request Feature</a>
+    <a href="https://github.com/Erisli/encore-hakka/issues">Request Feature</a>
   </p>
 </div>
 
@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Erisli/encore-hakka/blob/main/productCapture.JPG)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -89,15 +89,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 ### Built With
-
-* [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -122,7 +115,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Erisli/encore-hakka.git
    ```
 3. Install NPM packages
    ```sh
