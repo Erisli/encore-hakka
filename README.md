@@ -17,9 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Issues][issues-shield]][https://github.com/Erisli/encore-hakka/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/eris-li-553ab6192/]
-
 
 
 <!-- PROJECT LOGO -->
