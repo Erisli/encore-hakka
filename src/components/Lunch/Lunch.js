@@ -316,14 +316,14 @@ class Lunch extends Component {
             <div className="lunch">
                 <div>
                     <div className="image">
-                        <img src={ls} alt="lunch special"></img>
+                        <img src={ls} alt="lunch special" className="image2"></img>
                     </div>
-                    <h2 style={{ color: "#b77bad" }}>Include a Vegetable Spring Roll & Bottle Water or Soup</h2>
-                    <h2 style={{ color: "#b77bad" }}>(upgrade to Pop $1) (No Subsititutions)</h2>
-                    <h4 style={{ color: "#b77bad" }}>Add $2.50 to add steamed vegetables</h4>
-                    <h4 style={{ color: "#b77bad" }}>Add $1.75 to upgrade for egg fried rice or vegetable fried rice or Hakka noodles instead of steamed rice</h4>
-                    <h4 style={{ color: "#b77bad" }}>Add $0.25 to add extra spicy</h4>
-                    <Container style={{ padding: 20, color:"#d2adcc" }}>
+                    <h4 style={{ color: "#60355a", paddingLeft:10, paddingRight:10}}>Include a Vegetable Spring Roll & Bottle Water or Soup</h4>
+                    <h4 style={{ color: "#60355a" , paddingLeft:10, paddingRight:10}}>(upgrade to Pop $1) (No Subsititutions)</h4>
+                    <p style={{ color: "#60355a" , paddingLeft:10, paddingRight:10}}>Add $2.50 to add steamed vegetables</p>
+                    <p style={{ color: "#60355a" , paddingLeft:10, paddingRight:10}}>Add $1.75 to upgrade for egg fried rice or vegetable fried rice or Hakka noodles instead of steamed rice</p>
+                    <p style={{ color: "#60355a" , paddingLeft:10, paddingRight:10}}>Add $0.25 to add extra spicy</p>
+                    <Container style={{ padding: 20, color:"#60355a" }}>
 
                         {dull.map(item => (
 
@@ -332,14 +332,13 @@ class Lunch extends Component {
                                 <Col>{item.Name}</Col>
                                 <Col>Spicy Level: {item.Spicy}</Col>
                                 <Col>{item.Price}</Col>
-                                {item.Special == "TRUE" ? <Col style={{ color: "red" }}>Change to shrimps + $2.00</Col> : <Col></Col>}
+                                {item.Special === "TRUE" ? <Col style={{ color: "red" }}>Change to shrimps + $2.00</Col> : <Col></Col>}
 
                             </Row>
 
                         ))}
 
                     </Container>
-
 
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
+import cb from "../../images/cb.PNG"
 import "./Combos.css"
 // const url = 'https://yefpsa7mo6.execute-api.us-east-1.amazonaws.com/v1/lunches';
 
@@ -137,12 +138,12 @@ class Combos extends Component {
         return (
             <div className="combos">
                 <div>
-                    {/* <div className="image">
-                        <img src={ls} alt="lunch special"></img>
-                    </div> */}
-                    <h2 style={{ padding: 10, color: "#b77bad" }}>Include a Vegetable Spring Roll</h2>
-                    <h4 style={{ padding: 10, color: "#b77bad" }}>Add $0.50 to upgrade to Hakka Noddles</h4>
-                    <Container style={{ padding: 20, color:"#d2adcc" }}>
+                     <div className="image">
+                        <img src={cb} alt="combos" className="image2"></img>
+                    </div> 
+                    <h2 style={{ padding: 10, color: "#60355a" }}>Include a Vegetable Spring Roll</h2>
+                    <h4 style={{ padding: 10, color: "#60355a" }}>Add $0.50 to upgrade to Hakka Noddles</h4>
+                    <Container style={{ padding: 20, color:"#60355a" }}>
 
                         {dull.map(item => (
 

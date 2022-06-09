@@ -16,16 +16,25 @@
 
 }
 
-.navbar-collapse .dropdown-menu{ 
-    background:#9A5591;
-    
+
+#collapsible-nav-dropdown{
+    color:#874a7e
 }
 
-.navbar-collapse.collapse.show{
-    background:#9A5591;
+.navbar-toggler{
+    background-color:#874a7e
+}
+.offcanvas-header{
+    background-color:#ffffcc
 }
 
-.navbar-collapse.collapsing.show{
-    background:#9A5591;
+.offcanvas-body{
+    background-color:#ffffcc
 }
+
+.nav-item dropdown{
+    color:#874a7e
+}
+
+
 

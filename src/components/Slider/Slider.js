@@ -6,8 +6,6 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import { isMobile } from "react-device-detect";
 
-const aspectRatio = 1200 / 800;
-
 const images = [
     { src: "../../images/mainImage.jpg", alt: "Main" },
     { src: "../../images/SChk.jpg", alt: "Special Chicken" },
@@ -18,7 +16,7 @@ const images = [
 function Slider() {
     return (
 
-        <Carousel interval = "2000" variant = "light">
+        <Carousel id = "Slider" interval = "2000" variant = "dark">
             <Carousel.Item>
                 <img 
                     src={require('../../images/mainImage.jpg')}
@@ -30,8 +28,8 @@ function Slider() {
                     alt="Special chicken" src={require('../../images/SChk.jpg')}
                 />
                 <Carousel.Caption style={{color: "#ffccff"}}>
-                    <h1>Special Chicken Fried Rice</h1>
-                    <h4>desc</h4>
+                    <h2>Special Chicken Fried Rice</h2>
+                    <p>Our best selling dish-Guyanese style chicken fried rice</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,8 +38,8 @@ function Slider() {
                 />
 
                 <Carousel.Caption style={{color: "#ffccff"}}>
-                    <h1>Ginger Chicken</h1>
-                    <h4>desc</h4>
+                    <h2>Sesame Chicken</h2>
+                    <p>Light sauced sweet and tangy chicken cooked with white meat</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
@@ -49,8 +47,8 @@ function Slider() {
                     alt="Chili Chicken" src={require('../../images/CChk.jpg')}
                 />
                 <Carousel.Caption style={{color: "#ffccff"}}>
-                    <h1>Chili Chicken (dry)</h1>
-                    <h4>desc</h4>
+                    <h2>Chili Chicken (dry)</h2>
+                    <p>Popular Hakka style spicy chicken, can be either gravy or dry </p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

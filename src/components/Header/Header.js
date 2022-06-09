@@ -1,38 +1,67 @@
 import "./Header.css"
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { useWindowSize } from "../../Hooks/useWindowSize";
+import React, { useState } from 'react';
+import { Container, Navbar, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
+import ScrollToTop from "../../Hooks/ScrollToTop";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png"
 function Header() {
-  const size = useWindowSize();
+  const [menuOpen, setMenuOpen] = useState(false)
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
 
-  const w = size.width;
-  const h = size.height;
+  const onClick = () => {
+    toggleMenu();
+    ScrollToTop();
+  }
+  const handleClose = () => setMenuOpen(false)
   return (
-    <Navbar collapseOnSelect expand="md" sticky="top" variant="dark" >
-      <Container style={{width:w}}>
 
-        <Navbar.Brand href="/home" style={{ color: "#ffffcc"}}>
+    <Navbar collapseOnSelect expand="md" sticky="top">
+      
+      <Container >
+      
+        <Navbar.Brand as={Link} to="/home" onClick={ScrollToTop}>
           <img alt="Encore Hakka" src={logo} />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" >
-            <Nav.Link href="/features" style={{ color: "#ffffcc" }}>Features</Nav.Link>
-            <Nav.Link href="/gallery" style={{ color: "#ffffcc" }}>Gallery</Nav.Link>
-            <NavDropdown title="Menu" id="collapsible-nav-dropdown"  style={{color: "#ffffcc"}}>
-              <NavDropdown.Item href="/lunch" >Lunch Special</NavDropdown.Item>
-              <NavDropdown.Item href="/combos"  >Combos</NavDropdown.Item>
-              <NavDropdown.Item href="/trays"  >Party Trays</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/menu">Full Menu</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/coupons" style={{ color: "#ffffcc" }}>Coupons</Nav.Link>
-            <Nav.Link href="/contact" style={{ color: "#ffffcc" }}>Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        
+        <Navbar.Toggle aria-controls="offcanvasNavbar-expand-md" onClick={toggleMenu} />
+        
+        <Navbar.Offcanvas
+          id="offcanvasNavbar-expand-md"
+          aria-labelledby="offcanvasNavbarLabel-expand-md"
+          placement="end"
+          restoreFocus={false}
+          show={menuOpen}
+          onHide={handleClose}
+        >
+          
+          <Offcanvas.Header closeButton >
+            <Offcanvas.Title id="offcanvasNavbar-expand-md" style={{ color: "#60355a" }}>
+              Encore Hakka
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body >
+            <Nav className="ms-auto" id="offcanvasNavbar-expand-md">
+              <Nav.Link as={Link} to="gallery" style={{ color: "#60355a" }} onClick={onClick}>Gallery</Nav.Link>
+
+              <NavDropdown title="Special" id="offcanvasNavbarDropdown-expand-md" >
+                <NavDropdown.Item as={Link} to="/lunch" onClick={onClick} >Lunch Special</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/combos" onClick={onClick} >Combos</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/trays" onClick={onClick} >Party Trays</NavDropdown.Item>
+              </NavDropdown>
+
+              <Nav.Link as={Link} to="/menu" style={{ color: "#60355a" }} onClick={onClick}>Full Menu</Nav.Link>
+              
+              <Nav.Link as={Link} to="/coupons" style={{ color: "#60355a" }}
+                onClick={toggleMenu} >Coupons</Nav.Link>
+            </Nav>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas> 
+      </Container >
+    </Navbar >
   );
+
 }
 
 export default Header;
