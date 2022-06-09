@@ -29,23 +29,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/github_username/repo_name](https://github.com/Erisli/encore-hakka)">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
 <h3 align="center"Encore Hakka Restaurant</h3>
 
   <p align="center">
     Official website for Encore Hakka Restaurant 3685 Keele St unit 6, North York, ON M3J 3H6
     <br />
-    <a href="[https://github.com/github_username/repo_name](https://github.com/Erisli/encore-hakka)"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Erisli/encore-hakka"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="[https://github.com/github_username/repo_name](https://github.com/Erisli/encore-hakka)">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="[https://github.com/github_username/repo_name/issues](https://github.com/Erisli/encore-hakka/issues)">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="[https://github.com/github_username/repo_name/issues](https://github.com/Erisli/encore-hakka/issues)">Request Feature</a>
   </p>
 </div>
 
