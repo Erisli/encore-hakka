@@ -29,14 +29,14 @@
   <p align="center">
     Official website for Encore Hakka Restaurant 3685 Keele St unit 6, North York, ON M3J 3H6
     <br />
-    <a href="https://github.com/Erisli/encore-hakka"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Erisli/encore-hakka-restaurant"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Erisli/encore-hakka">View Demo</a>
+    <a href="https://github.com/Erisli/encore-hakka-restaurant">View Demo</a>
     ·
-    <a href="https://github.com/Erisli/encore-hakka/issues">Report Bug</a>
+    <a href="https://github.com/Erisli/encore-hakka-restaurant/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Erisli/encore-hakka/issues">Request Feature</a>
+    <a href="https://github.com/Erisli/encore-hakka-restaurant/issues">Request Feature</a>
   </p>
 </div>
 
@@ -70,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/Erisli/encore-hakka)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Erisli/encore-hakka-restaurant)
 
 This is an official website for Encore Hakka Restaurant created and maintained by Eris Li
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -104,7 +104,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/Erisli/encore-hakka.git
+   git clone https://github.com/Erisli/encore-hakka-restaurant.git
    ```
 3. Install NPM packages
    ```sh
@@ -135,7 +135,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Eris Li - yuezhengbai@gmail.com - https://www.linkedin.com/in/eris-li-553ab6192/
 
-Project Link: [https://github.com/Erisli/encore-hakka] (https://erisli.github.io/encore-hakka/)
+Project Link: [https://github.com/Erisli/encore-hakka-restaurant] (https://erisli.github.io/encore-hakka/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,4 +155,4 @@ Project Link: [https://github.com/Erisli/encore-hakka] (https://erisli.github.io
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/eris-li-553ab6192/
-[product-screenshot]: https://github.com/Erisli/encore-hakka/blob/main/productCapture.JPG
+[product-screenshot]: https://github.com/Erisli/encore-hakka-restaurant/blob/main/productCapture.JPG
