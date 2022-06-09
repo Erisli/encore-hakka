@@ -74,7 +74,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/Erisli/encore-hakka)
-<img src="https://github.com/Erisli/encore-hakka/blob/main/productCapture.JPG" alt="Product Name Screen Shot" style="max-width: 100%;">
 
 This is an official website for Encore Hakka Restaurant created and maintained by Eris Li
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,7 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Eris Li - yuezhengbai@gmail.com - (https://www.linkedin.com/in/eris-li-553ab6192/)
+Eris Li - yuezhengbai@gmail.com - https://www.linkedin.com/in/eris-li-553ab6192/
 
 Project Link: [https://github.com/Erisli/encore-hakka] (https://erisli.github.io/encore-hakka/)
 
