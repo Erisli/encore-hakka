@@ -133,7 +133,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Eris Li - yuezhengbai@gmail.com - https://www.linkedin.com/in/eris-li-553ab6192/
+Eris Li - yuezhengbai@gmail.com - https://www.linkedin.com/in/yuying-eris-li-553ab6192/
 
 Project Link: [https://github.com/Erisli/encore-hakka-restaurant] (https://erisli.github.io/encore-hakka/)
 
@@ -154,5 +154,5 @@ Project Link: [https://github.com/Erisli/encore-hakka-restaurant] (https://erisl
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-url]: https://www.linkedin.com/in/eris-li-553ab6192/
+[linkedin-url]: https://www.linkedin.com/in/yuying-eris-li-553ab6192/
 [product-screenshot]: https://github.com/Erisli/encore-hakka-restaurant/blob/main/productCapture.JPG
