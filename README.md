@@ -101,7 +101,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-setup-api-key-with-console.html)
+1. Get a free API Key at [https://docs.aws.amazon.com/apigateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-setup-api-key-with-console.html)
 2. Clone the repo
    ```sh
    git clone https://github.com/Erisli/encore-hakka-restaurant.git
